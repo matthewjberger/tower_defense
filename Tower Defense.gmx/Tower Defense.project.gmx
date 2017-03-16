@@ -22,6 +22,7 @@
   <paths name="paths">
     <path>paths\pathOne</path>
     <path>paths\pathTwo</path>
+    <path>paths\pathThree</path>
   </paths>
   <scripts name="scripts">
     <scripts name="Misc">

@@ -67,14 +67,14 @@ if(objControllerOne.currentWave == 0)
     }
     else if(objControllerOne.currentRoom == 3)
     {
-        //TODO: objControllerOne.path = pathThree;
-        // room_goto(rmThree);
+        objControllerOne.path = pathTwo;
+        objControllerOne.start = true;
+        room_goto(rmThree);
     }
     else
     {
-        //TODO: show dialog for success!
-        // then
-        // room_goto(rmOne);
+        show_message("You've won! :D");
+        game_restart();
     }
 }
 else if(objControllerOne.start == false)
