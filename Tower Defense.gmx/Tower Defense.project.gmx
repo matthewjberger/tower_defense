@@ -10,11 +10,11 @@
     <sprite>sprites\sprTowerOne2</sprite>
     <sprite>sprites\sprEnemy</sprite>
     <sprite>sprites\sprBullet</sprite>
-    <sprite>sprites\sprPlayerHp</sprite>
     <sprite>sprites\sprTowerTwo</sprite>
     <sprite>sprites\sprTowerTwo2</sprite>
     <sprite>sprites\sprEnemyTwo</sprite>
     <sprite>sprites\sprWall</sprite>
+    <sprite>sprites\sprPlayerHp</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\tileBackground</background>
