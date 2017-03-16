@@ -13,7 +13,6 @@
     <sprite>sprites\sprPlayerHp</sprite>
     <sprite>sprites\sprTowerTwo</sprite>
     <sprite>sprites\sprEnemyTwo</sprite>
-    <sprite>sprites\sprTitleSelect</sprite>
     <sprite>sprites\sprWall</sprite>
   </sprites>
   <backgrounds name="background">
