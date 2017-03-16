@@ -89,12 +89,12 @@ if(objControllerOne.start == false)
 draw_set_alpha(1);
 draw_set_color(c_green);
 
-draw_text(0, 64, "Current Wave: " + string(objControllerOne.currentWave));
+draw_text(0, 64, "Current Wave: " + string(objControllerOne.waves - objControllerOne.currentWave + 1));
 draw_text(0, 96, "Enemies: " + string(objControllerOne.enemies));
 
 if(objControllerOne.start == false)
 {
-    draw_set_color(c_orange);
+    draw_set_color(c_red);
     draw_text(0, 128, "Time Until Next Wave: " + string(ceil(myTime)));
 }
 

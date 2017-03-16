@@ -31,7 +31,7 @@ event_inherited();
 
 // wave vars
 path = pathOne;
-waves = 3;   
+waves = 10;   
 currentWave = waves;
 enemies = 8;
 
@@ -118,22 +118,7 @@ switch (currentWave)
 
 // take this out later
 
-/*case 5:
-    if (start)
-    {
-        if (checkWaveDone()) break;
-        scriptL1W3();
-    }
-    break;
-case 4:
-    if (start)
-    {
-        if (checkWaveDone()) break;
-        scriptL1W3();
-    }
-    break;
-*/
-
+case 6:
 case 3:
     if (start)
     {
@@ -141,6 +126,9 @@ case 3:
         scriptL1W1();
     }
     break;
+
+case 8:
+case 5:
 case 2:
     if (start)
     {
@@ -148,11 +136,22 @@ case 2:
         scriptL1W2();
     }
     break;
+
+case 7:
+case 4:
 case 1:
     if (start)
     {
-        if (checkWaveDone(0)) break;
+        if (checkWaveDone(10)) break;
         scriptL1W3();
+    }
+    break;
+    
+default:
+    if (start)
+    {
+        if (checkWaveDone(10)) break;
+        scriptL1W1();
     }
     break;
 }
