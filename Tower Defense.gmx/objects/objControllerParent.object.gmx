@@ -107,7 +107,7 @@ if (mouse_check_button_pressed(mb_left))
 
 if (playerHp &lt;= 0)
 {
-    show_message("Game over");
+    show_message("Game over! D:");
     game_restart();
 }
 </string>

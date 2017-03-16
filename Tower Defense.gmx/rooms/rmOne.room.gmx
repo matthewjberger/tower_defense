@@ -52,7 +52,6 @@
   </views>
   <instances>
     <instance objName="objControllerOne" x="0" y="0" name="inst_98C5B482" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objDebugger" x="0" y="32" name="inst_62C23C9F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objWall" x="0" y="288" name="inst_1F43A678" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objWall" x="32" y="288" name="inst_44E2B0EC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objWall" x="64" y="288" name="inst_C2953353" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

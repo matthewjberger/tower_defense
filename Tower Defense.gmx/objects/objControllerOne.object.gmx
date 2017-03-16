@@ -37,7 +37,7 @@ enemies = 8;
 
 // health and money vars
 playerHp = 20;
-money = 350;
+money = 600;
 </string>
           </argument>
         </arguments>

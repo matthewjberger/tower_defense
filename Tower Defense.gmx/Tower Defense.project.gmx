@@ -13,7 +13,6 @@
     <sprite>sprites\sprPlayerHp</sprite>
     <sprite>sprites\sprTowerTwo</sprite>
     <sprite>sprites\sprEnemyTwo</sprite>
-    <sprite>sprites\sprEnemyInfinite</sprite>
     <sprite>sprites\sprTitleSelect</sprite>
     <sprite>sprites\sprWall</sprite>
   </sprites>
@@ -41,13 +40,11 @@
     <objects name="Controllers">
       <object>objects\objControllerParent</object>
       <object>objects\objControllerOne</object>
-      <object>objects\objControllerInfinite</object>
     </objects>
     <objects name="Enemies">
       <object>objects\objEnemyParent</object>
       <object>objects\objEnemyOne</object>
       <object>objects\objEnemyTwo</object>
-      <object>objects\objEnemyInfinite</object>
     </objects>
     <objects name="Towers">
       <object>objects\objTowerParent</object>
@@ -62,9 +59,7 @@
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rmTitle</room>
     <room>rooms\rmOne</room>
-    <room>rooms\rmOneInf</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
