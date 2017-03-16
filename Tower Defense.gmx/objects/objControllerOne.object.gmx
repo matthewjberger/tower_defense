@@ -31,13 +31,13 @@ event_inherited();
 
 // wave vars
 path = pathOne;
-waves = 3;   // change back to 3 later
+waves = 3;   
 currentWave = waves;
 enemies = 8;
 
 // health and money vars
 playerHp = 20;
-money = 600;
+money = 300;
 </string>
           </argument>
         </arguments>

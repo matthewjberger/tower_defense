@@ -72,7 +72,6 @@ if (path_position == 1)
 {
     objControllerParent.playerHp--;
     instance_destroy();
-    objControllerParent.money += 10;
 }
 </string>
           </argument>

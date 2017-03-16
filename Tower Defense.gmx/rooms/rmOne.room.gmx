@@ -151,6 +151,7 @@
     <instance objName="objWall" x="544" y="544" name="inst_01DF785F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objWall" x="576" y="544" name="inst_964C95A4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objWall" x="608" y="544" name="inst_D368770D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objStatus" x="0" y="64" name="inst_185E7A1E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tileBackground" x="0" y="288" w="32" h="32" xo="640" yo="64" id="10000004" name="inst_5FEA68C9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

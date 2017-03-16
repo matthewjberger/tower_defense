@@ -54,6 +54,7 @@
     </objects>
     <objects name="Misc">
       <object>objects\objDebugger</object>
+      <object>objects\objStatus</object>
       <object>objects\objTitle</object>
       <object>objects\objWall</object>
     </objects>
