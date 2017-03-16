@@ -53,7 +53,31 @@ myTime = initialTime;
             <kind>1</kind>
             <string>/// Update time
 
-if(objControllerOne.start == false)
+// All waves have finished
+if(objControllerOne.currentWave == 0) 
+{
+    objControllerOne.currentWave = 10;
+    objControllerOne.currentRoom += 1;
+    
+    if(objControllerOne.currentRoom == 2)
+    {
+        objControllerOne.path = pathTwo;
+        objControllerOne.start = true;
+        room_goto(rmTwo);
+    }
+    else if(objControllerOne.currentRoom == 3)
+    {
+        //TODO: objControllerOne.path = pathThree;
+        // room_goto(rmThree);
+    }
+    else
+    {
+        //TODO: show dialog for success!
+        // then
+        // room_goto(rmOne);
+    }
+}
+else if(objControllerOne.start == false)
 {
     myTime = myTime - delta_time/1000000;
     if(myTime &lt;= 0)

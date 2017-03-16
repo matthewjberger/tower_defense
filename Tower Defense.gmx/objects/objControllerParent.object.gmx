@@ -33,6 +33,7 @@ waves = 0;
 enemies = 0;
 start = false;
 canSpawn = true;
+currentRoom = 1;
 
 // health and money vars
 playerHp = 0;

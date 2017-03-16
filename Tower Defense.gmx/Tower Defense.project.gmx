@@ -21,6 +21,7 @@
   </backgrounds>
   <paths name="paths">
     <path>paths\pathOne</path>
+    <path>paths\pathTwo</path>
   </paths>
   <scripts name="scripts">
     <scripts name="Misc">
@@ -60,6 +61,8 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\rmOne</room>
+    <room>rooms\rmTwo</room>
+    <room>rooms\rmThree</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
