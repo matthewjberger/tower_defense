@@ -150,6 +150,15 @@ if (mouse_check_button_pressed(mb_left))
                     money -= 50;
                 }
         }
+        else if (towerid.object_index == objTowerTwo)
+        {
+            if (towerid.level &lt; 2)
+                if (money &gt;= 100)
+                {
+                    towerid.level = 2;
+                    money -= 100;
+                }
+        }
     }
 }
 </string>
@@ -192,6 +201,20 @@ if (mouse_check_button_pressed(mb_right))
             else if (towerid.level == 2)
             {
                 money += round(50 * 0.75);
+                towerid.level = 1;
+            }
+        }
+        else if (towerid.object_index == objTowerTwo)
+        {
+            if (towerid.level &lt; 2)
+            {
+                money += 100;
+                with (towerid)
+                    instance_destroy();
+            }
+            else if (towerid.level == 2)
+            {
+                money += round(30 * 0.75);
                 towerid.level = 1;
             }
         }
@@ -259,7 +282,7 @@ if (mouse_check_button_pressed(mb_left))
 
 draw_set_halign(fa_left);
 
-draw_text_colour(0, 32, "Money: " + string(money), c_yellow, c_yellow, c_yellow, c_yellow, 1);
+draw_text_colour(0, 32, "Money: " + string(money), c_green, c_green, c_green, c_green, 1);
 
 for (var i = 0; i &lt; playerHp; i++)
 {
